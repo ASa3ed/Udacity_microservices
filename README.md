@@ -1,8 +1,6 @@
-<html>
-<center>
+
 [![ASa3ed](https://circleci.com/gh/ASa3ed/Udacity_microservices.svg?style=svg)](https://circleci.com/gh/ASa3ed/Udacity_microservices)
-</center>
-</html>
+
 
 ## Project Overview
 
