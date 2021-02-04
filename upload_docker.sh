@@ -5,11 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+export dockerpath=asghostknight/house-prediction
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username asghostknight
+docker tag house-prediction $dockerpath
+
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
