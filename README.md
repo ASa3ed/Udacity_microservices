@@ -1,4 +1,8 @@
-<include a CircleCI status badge, here>
+<html>
+<center>
+[![ASa3ed](https://circleci.com/gh/ASa3ed/Udacity_microservices.svg?style=svg)](https://circleci.com/gh/ASa3ed/Udacity_microservices)
+</center>
+</html>
 
 ## Project Overview
 
@@ -40,3 +44,4 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
