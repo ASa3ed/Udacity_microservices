@@ -1,1 +1,16 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) asl@asl:~/Documents/local_environment/Udacity_microservices$ ./run_kubernetes.sh 
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "house-prediction" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       house-prediction                   1/1     Running   0          80m
+kube-system   coredns-74ff55c5b-qgrsg            1/1     Running   0          131m
+kube-system   etcd-minikube                      1/1     Running   0          131m
+kube-system   kube-apiserver-minikube            1/1     Running   0          131m
+kube-system   kube-controller-manager-minikube   1/1     Running   0          131m
+kube-system   kube-proxy-k4ss9                   1/1     Running   0          131m
+kube-system   kube-scheduler-minikube            1/1     Running   0          131m
+kube-system   storage-provisioner                1/1     Running   2          131m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
